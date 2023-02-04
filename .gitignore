@@ -3,3 +3,6 @@
 .order
 *.cmd
 *.ko
+*.order
+*.mod
+*.mod.c

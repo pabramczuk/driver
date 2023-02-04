@@ -1,4 +1,10 @@
-Driver master
-dev master
-test win
-ORANGE
+1.
+
+load module
+
+lsmod
+
+insmod
+
+rmmod
+
