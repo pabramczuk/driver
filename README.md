@@ -20,4 +20,7 @@ tail -f /var/log/syslog
 
 echo "1" > /dev/simple_drv
 
+2.
+https://www.youtube.com/watch?v=UdeGTRvPjK4&ab_channel=SolidusCode
+
 
