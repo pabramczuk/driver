@@ -45,7 +45,8 @@ ssize_t simple_read(struct file *pfile, char __user *buffer, size_t length, loff
 ssize_t simple_write(struct file *pfile, const char __user *buffer, size_t length, loff_t *offset)
 {
 	printk(KERN_INFO"simple_write %d ",(int)length);
-	return length;
+	ret = copy_from_user(virt_dev.data,buffer,length);
+	return ret;
 
 }
 

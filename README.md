@@ -12,7 +12,7 @@ rmmod
 
 cat /proc/devices
 
-mknod -m 666 /dev/simple_drv c 240 0
+mknod -m 666 /dev/simple_drv c 240 0 (rm /dev/simple_drv)
 
 ls /dev/simple_drv
 
@@ -23,4 +23,5 @@ echo "1" > /dev/simple_drv
 2.
 https://www.youtube.com/watch?v=UdeGTRvPjK4&ab_channel=SolidusCode
 
-
+status:
+-write works

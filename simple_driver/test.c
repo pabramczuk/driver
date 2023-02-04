@@ -28,6 +28,8 @@ int main()
 			break;
 
 		case 'r':
+			read(fd,read_b,sizeof(read_b));
+			printf("read: %s\n",read_b);
 			break;		
 
 	}
